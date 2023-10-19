@@ -1,0 +1,29 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+ 
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div>
+        <a class="btn btn-primary" href="/">Home</a>
+        <a class="btn btn-danger" href="/Home/Contact">About</a>
+        <a class="btn btn-success" href="/home/Company">Company</a>
+        <a class="btn btn-warning" href="/Profile/signup">Sign Up</a>
+        <a class="btn btn-warning" href="/Profile/signin">Sign In</a>
+
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+      
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

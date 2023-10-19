@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "temp";
+    Layout = "~/Views/Shared/_OuterLayout.cshtml";
+}
+
+<h2>temp</h2>
+<br />
+@if (TempData["Msg"] != null)
+{
+    <span class="alert alert-info">@TempData["Msg"]</span>
+}
+
+<h2>Index</h2>

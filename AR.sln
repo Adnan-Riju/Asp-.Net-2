@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR", "AR.csproj", "{4E981B24-5D7B-4E64-8E0D-685B286C57AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E981B24-5D7B-4E64-8E0D-685B286C57AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E981B24-5D7B-4E64-8E0D-685B286C57AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E981B24-5D7B-4E64-8E0D-685B286C57AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E981B24-5D7B-4E64-8E0D-685B286C57AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3717C038-ED64-44F2-8AE5-591F82D872BC}
+	EndGlobalSection
+EndGlobal
